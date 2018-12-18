@@ -16,7 +16,6 @@ class Chartx extends Component {
   getLabel(props){
     const { text, x, y} = props;
     this.count += 1
-    console.log(this.count)
     var label = text;
     if (this.count % 2 == 0){
       label = ''

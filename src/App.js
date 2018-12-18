@@ -41,7 +41,6 @@ class App extends Component {
   componentWillMount(){
     axios.get('/api/weekly')
     .then((res) => {
-      //console.log('from backend: ' + JSON.stringify(res.data));
       var newData = res.data;
       var aisleArray = [];
       var brandArray = [];
@@ -72,7 +71,6 @@ class App extends Component {
             return
         }
       })
-      console.log('for example, brand array is: ' + JSON.stringify(brandArray))
       axios.get('/api/topline')
       .then((res) => {
 
