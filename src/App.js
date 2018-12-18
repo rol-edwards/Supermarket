@@ -142,10 +142,10 @@ class App extends Component {
             <Button variant="contained" color={(this.state.dataSet == 'aisle') ? "secondary" : "primary"} onClick={() => this.toggleData('aisle')}>Aisle</Button>
             <Button variant="contained" color={(this.state.dataSet == 'brand') ? "secondary" : "primary"} onClick={() => this.toggleData('brand')}>Brand</Button>
             <Button variant="contained" color={(this.state.dataSet == 'offer') ? "secondary" : "primary"} onClick={() => this.toggleData('offer')}>Offer</Button>
-           <Paper>
+           <Card>
             <Chart data={this.chartData}
             start={this.state.start}/>
-            </Paper>
+            </Card>
             <h1 ref={this.topRef}>Top-line values</h1>
             <Table data={this.state.tableData}/>
           </div>

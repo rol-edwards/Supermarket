@@ -34,7 +34,7 @@ class Chartx extends Component {
           <Chart
           data={this.props.data}
           height='300'
-          width='1100'
+          width='1000'
           >
             <ArgumentAxis labelComponent={this.getLabel}/>
             <ValueAxis />

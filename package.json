@@ -9,17 +9,13 @@
     "@material-ui/core": "^3.6.2",
     "@material-ui/icons": "^3.0.1",
     "axios": "^0.18.0",
-    "d3-scale": "^2.1.2",
-    "material-table": "^1.7.0",
     "material-ui": "^0.20.2",
     "material-ui-icons": "^1.0.0-beta.36",
     "moment": "^2.23.0",
     "mui-datatables": "^2.0.0-beta-41",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1",
-    "react-vis": "^1.11.5",
-    "victory": "^31.0.2"
+    "react-scripts": "2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
